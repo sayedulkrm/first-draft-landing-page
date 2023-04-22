@@ -1,0 +1,58 @@
+.main-header-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Open Sans", sans-serif;
+}
+.header-section-all-elements {
+    box-sizing: border-box;
+    width: 80%;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-section-logo {
+    flex: 2;
+    width: 50%;
+}
+.header-section-logo > img {
+    width: 100px;
+}
+.header-section-menu {
+    flex: 1;
+}
+
+.header-section-menu > ul {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    text-decoration: none;
+    align-items: baseline;
+    width: 100%;
+    list-style: none;
+    gap: 20px;
+}
+
+/* ================= */
+/* =========   LINK     ======== */
+/* ================= */
+li > a {
+    text-decoration: none;
+    color: black;
+}
+/* ================= */
+/* ================= */
+/* ================= */
+
+.header-section-menu > ul > button {
+    background: #3989d3;
+    border-radius: 100px;
+    border: none;
+    height: 40px;
+    width: 150px;
+    color: white;
+}

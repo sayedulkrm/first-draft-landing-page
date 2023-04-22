@@ -1,0 +1,459 @@
+.main-home-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-home-hero-section {
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px 0;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section-image-text {
+    display: flex;
+    width: 80%;
+    gap: 10%;
+    padding: 20px;
+}
+.hero-section-text-all-elements {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-section-text-all-elements > h1 {
+    font-family: "Open Sans", sans-serif;
+
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+
+    letter-spacing: -0.015em;
+
+    color: #292525;
+}
+
+.hero-section-text-all-elements > p {
+    font-family: "DM Sans", sans-serif;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #000000;
+
+    opacity: 0.7;
+}
+
+.hero-section-text-all-elements > button {
+    margin: 20px 0;
+    height: 50px;
+    width: 100%;
+    border: none;
+    color: white;
+    background: #00befa;
+    font-weight: 700;
+    font-size: 12px;
+    box-shadow: 0px 46px 52px rgba(96, 225, 203, 0.56);
+    border-radius: 100px;
+}
+
+.hero-section-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-section-image > img {
+    width: 500px;
+}
+
+.hero-section-svg-top {
+    position: absolute;
+    z-index: -1;
+    top: 150px;
+    right: 80px;
+}
+.hero-section-svg-top > img {
+    width: 200px;
+}
+
+.hero-section-svg-bottom {
+    position: absolute;
+    z-index: -1;
+    bottom: -400px;
+    left: 0;
+}
+.hero-section-svg-bottom > img {
+    width: 500px;
+}
+
+/* =================== */
+/* =================== */
+/* =================== */
+/* =================== */
+/* =================== */
+
+.main-home-section-two {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+    background: #ddf7ff;
+}
+
+.section-two-top-headings {
+    margin: 20px 0;
+    padding: 20px 0;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.section-two-top-headings > h1 {
+    font-family: "Open Sans", sans-serif;
+
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 45px;
+    text-align: center;
+
+    color: #292525;
+}
+
+.section-two-top-headings > p {
+    font-family: "DM Sans", sans-serif;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 23px */
+    max-width: 60%;
+    text-align: center;
+
+    color: #000000;
+
+    opacity: 0.7;
+}
+
+.section-two-all-cards {
+    margin: 20px 0;
+    padding: 20px 0;
+    display: flex;
+    width: 90%;
+    gap: 20px;
+    justify-content: center;
+    z-index: 5;
+}
+.section-two-card {
+    border-top: 10px solid #00befa;
+    border-radius: 10px;
+    background: white;
+    max-width: 300px;
+    padding: 20px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0px 97px 90px rgba(7, 0, 59, 0.12);
+}
+.section-two-card-icon {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px 0;
+}
+.section-two-card-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section-two-card-text > a {
+    font-family: "DM Sans" sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 20px;
+
+    /* Secondary */
+
+    color: #3989d3;
+}
+
+.section-two-svg-right {
+    position: absolute;
+    right: 30px;
+    top: 300px;
+}
+.section-two-svg-right > img {
+    width: 250px;
+}
+.section-two-svg-left {
+    position: absolute;
+    bottom: -80px;
+    left: -100px;
+}
+.section-two-svg-left > img {
+    width: 250px;
+}
+
+/* =================== */
+/* =================== */
+/* =================== */
+/* =================== */
+/* =================== */
+
+/* ==============    SECTION THREE ================= */
+
+.main-home-section-three-idea {
+    width: 100%;
+    height: 900px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    margin: 50px 0;
+}
+.idea-section-top-text {
+    margin: 10px 0;
+
+    width: 80%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.idea-section-top-text-heading > h1 {
+    font-family: "Open Sans", sans-serif;
+
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 55px;
+
+    color: #292525;
+}
+.idea-section-top-text-paragraph > p {
+    font-family: "DM Sans", sans-serif;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 34px */
+
+    color: #000000;
+    width: 70%;
+
+    opacity: 0.7;
+}
+
+.idea-section-body-all-elements {
+    margin: 20px 0;
+    width: 80%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.idea-section-body-elements {
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+}
+.idea-section-body-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    background: white;
+    box-shadow: 0px 32px 41px rgba(0, 0, 0, 0.13);
+}
+
+.idea-section-body-button > p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+
+    /* Secondary */
+
+    color: #3989d3;
+}
+.idea-section-body-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 50%;
+}
+.idea-section-body-text > h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    color: #60e1cb;
+}
+.idea-section-body-text > p {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 25px */
+
+    color: #000000;
+
+    opacity: 0.7;
+}
+
+/* ============ SVG AND IMAGE ======== */
+
+.idea-section-image {
+    position: absolute;
+    bottom: -30%;
+    right: 0;
+    z-index: -1;
+}
+.idea-section-image > img {
+    width: 600px;
+}
+.idea-section-svg-top {
+    position: absolute;
+    top: -50px;
+    right: 0;
+}
+.idea-section-svg-top > img {
+    width: 250px;
+}
+
+.idea-section-svg-bottom {
+    position: absolute;
+    z-index: -2;
+    right: 10%;
+    top: 65%;
+}
+
+.idea-section-svg-bottom > img {
+    width: 300px;
+}
+
+/* =================== */
+/* =================== */
+/* =================== */
+/* =================== */
+/* =================== */
+
+/* ==============    SECTION FOUR ================= */
+.main-home-section-four {
+    width: 100%;
+    height: 70vh;
+
+    background: #00befa;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.section-four-all-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+.section-four-all-elements > h1 {
+    font-family: "Open Sans", sans-serif;
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+
+    color: #000000;
+}
+.section-four-all-elements > p {
+    font-family: "DM Sans", sans-serif;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height, or 25px */
+
+    color: #000000;
+
+    opacity: 0.9;
+}
+.section-four-all-elements > button {
+    background: #292525;
+    box-shadow: 0px 46px 52px #36b8a2;
+    border-radius: 100px;
+    height: 50px;
+    width: 50%;
+    color: #ffffff;
+    border: none;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+}
+/* ============ SVG AND IMAGE ======== */
+
+.section-four-svg-left {
+    position: absolute;
+    left: -50px;
+    top: 0;
+}
+.section-four-svg-left > img {
+    width: 500px;
+}
+.section-four-svg-right {
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+
+.section-four-svg-right > img {
+    width: 650px;
+    height: 450px;
+}
+.section-four-circle {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+
+.section-four-circle > img {
+    width: 150px;
+    opacity: 0.2;
+}

@@ -1,0 +1,197 @@
+.main-about-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-about-section-four {
+    width: 100%;
+
+    padding: 140px 0;
+
+    background: #00befa;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.about-section-four-all-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+.about-section-four-all-elements > h1 {
+    font-family: "Open Sans", sans-serif;
+
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 55px;
+
+    color: #000000;
+}
+.about-section-four-all-elements > p {
+    font-family: "DM Sans", sans-serif;
+    width: 65%;
+    z-index: 1;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    /* identical to box height, or 25px */
+    color: #292525;
+
+    opacity: 0.6;
+}
+.about-section-four-all-elements > button {
+    background: #292525;
+    box-shadow: 0px 46px 52px #36b8a2;
+    border-radius: 100px;
+    height: 50px;
+    width: 50%;
+    color: #ffffff;
+    border: none;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+}
+/* ============ SVG AND IMAGE ======== */
+
+.about-section-four-svg-left {
+    position: absolute;
+    left: -50px;
+    top: 0;
+}
+.about-section-four-svg-left > img {
+    width: 500px;
+}
+.about-section-four-svg-right {
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+
+.about-section-four-svg-right > img {
+    width: 650px;
+    height: 450px;
+}
+.about-section-four-circle {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+
+.about-section-four-circle > img {
+    width: 150px;
+    opacity: 0.2;
+}
+/* ===================== */
+/* ===================== */
+/* ===================== */
+/* ===================== */
+
+.main-about-section-story-body {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1400px;
+    background: #ecfaff;
+    position: relative;
+}
+.about-section-all-cards {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+.about-section-card-bg {
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    background: #ddf7ff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section-main-card {
+    background: #fdfdff;
+    box-shadow: 0px 58px 76px rgba(7, 0, 59, 0.06);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    width: 80%;
+    padding: 20px;
+    gap: 20px;
+}
+
+.about-section-main-card > h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+
+    /* black */
+
+    color: #292525;
+}
+
+.about-section-main-card > p {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 31px */
+
+    text-align: center;
+
+    /* black */
+
+    color: #292525;
+
+    opacity: 0.6;
+}
+
+.about-section-card-top-svg {
+    position: absolute;
+    top: -5%;
+    left: 0;
+}
+.about-section-card-top-svg > img {
+    width: 150px;
+}
+.about-section-card-mid-svg {
+    position: absolute;
+    right: 0;
+    top: 30%;
+}
+
+.about-section-card-mid-svg > img {
+    width: 100px;
+}
+
+.about-section-card-bot-svg {
+    position: absolute;
+    left: 0;
+    bottom: 2%;
+}
+
+.about-section-card-bot-svg > img {
+    width: 150px;
+}
